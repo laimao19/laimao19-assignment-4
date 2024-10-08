@@ -1,5 +1,5 @@
 # Latent Semantic Analysis (LSA) Search Engine
-
+[![Python Application CI](https://github.com/laimao19/laimao19-assignment-4/actions/workflows/python-app.yml/badge.svg)](https://github.com/laimao19/laimao19-assignment-4/actions/workflows/python-app.yml)
 This project implements a basic search engine using Latent Semantic Analysis (LSA). The search engine allows users to enter a query and retrieves the top 5 documents from the 20 Newsgroups dataset based on cosine similarity. The results include a bar chart visualization of the similarity scores for the top documents.
 
 ## Table of Contents
