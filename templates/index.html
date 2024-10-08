@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSA Search Engine</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Latent Semantic Analysis (LSA) Search Engine</h1>
+    
+    <!-- Search Form -->
+    <form id="search-form">
+        <input type="text" id="query" placeholder="Enter search query" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <!-- Results Section -->
+    <div id="results"></div>
+
+    <!-- Canvas for Similarity Chart -->
+    <div id="chart-container">
+        <canvas id="similarity-chart" width="400" height="200"></canvas>
+    </div>
+
+    <!-- Main JavaScript File -->
+    <script src="/static/main.js"></script>
+</body>
+</html>
