@@ -25,7 +25,7 @@ jobs:
     - name: Run the application
       run: |
         make run &
-        sleep 10 # Give the server time to start up
+        sleep 90 # Give the server time to start up
 
     - name: Test server response
       run: |
